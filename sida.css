@@ -19,7 +19,8 @@ body
 	max-width: 60em;
 	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.9); 
-	border-radius: 25px;
+  border-radius: 25px;
+  text-align: center;
 }
 .banner
 {
@@ -32,6 +33,11 @@ body
   z-index: -1;
   background-color: red;
   opacity: 0.6;
+  text-align: center;
+}
+.banner a 
+{
+  font-size: 50px;
 }
 div
 {
@@ -44,6 +50,12 @@ p
 .center
 {
 	text-align: center;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 48em) {
+  .container {
+    margin-top: 13.5em;
+  }
 }
 
 
