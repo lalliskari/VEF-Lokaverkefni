@@ -1,3 +1,10 @@
+@import "fellilisti.css";
+@import "topmenu.css";
+
+*, *:before, *:after {
+  box-sizing: border-box; 
+}
+
 body
 {
 	background: url("Myndir/bakgrunnur3.jpg") no-repeat center center fixed; 
@@ -38,3 +45,6 @@ p
 {
 	text-align: center;
 }
+
+
+ 
