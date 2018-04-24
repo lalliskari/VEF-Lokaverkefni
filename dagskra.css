@@ -1,0 +1,16 @@
+.dagskra {
+    max-width: 30em;
+    height: 40em;
+    background-color: yellow;
+    color: tomato;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 37.5em) {
+    .dagskra {
+      max-width: 20em;
+    }
+  }

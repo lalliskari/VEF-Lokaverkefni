@@ -1,5 +1,6 @@
 @import "fellilisti.css";
 @import "topmenu.css";
+@import "dagskra.css";
 
 *, *:before, *:after {
   box-sizing: border-box; 
@@ -35,10 +36,7 @@ body
   opacity: 0.6;
   text-align: center;
 }
-.banner a 
-{
-  font-size: 50px;
-}
+
 div
 {
 	color: white;
