@@ -1,6 +1,7 @@
 @import "fellilisti.css";
 @import "topmenu.css";
 @import "dagskra.css";
+@import "artist.css";
 
 *, *:before, *:after {
   box-sizing: border-box; 
@@ -21,7 +22,7 @@ body
 	margin: 1em auto;
 	background-color: rgba(0, 0, 0, 0.9); 
   border-radius: 25px;
-  text-align: center;
+  
   padding: 2em;
 }
 .banner
