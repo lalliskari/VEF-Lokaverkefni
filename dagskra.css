@@ -1,6 +1,6 @@
 .dagskra {
     max-width: 30em;
-    height: 40em;
+    height: auto;
     background:linear-gradient(yellow,red);
     color: #0c0c0c;
     margin-left: auto;
@@ -8,6 +8,10 @@
     padding: 1em;
     border-radius: 10px;
     text-align: center;
+    
+}
+.dagskra h2 {
+    line-height: 2;
 }
 
 @media only screen and (min-width: 0em) and (max-width: 37.5em) {
