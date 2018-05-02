@@ -2,6 +2,7 @@
 @import "topmenu.css";
 @import "dagskra.css";
 @import "artist.css";
+@import "animate.css";
 
 *, *:before, *:after {
   box-sizing: border-box; 
@@ -50,6 +51,12 @@ p
 .center
 {
 	text-align: center;
+}
+.small-text {
+  font-size: 30px;
+  padding: 10px;
+  animation-delay: 1s;
+  
 }
 
 @media only screen and (min-width: 0em) and (max-width: 48em) {
