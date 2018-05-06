@@ -3,6 +3,8 @@
 @import "dagskra.css";
 @import "artist.css";
 @import "animate.css";
+@import "topofpage.css";
+
 
 *, *:before, *:after {
   box-sizing: border-box; 
