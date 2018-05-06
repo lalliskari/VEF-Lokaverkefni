@@ -6,6 +6,7 @@
 @import "topofpage.css";
 
 
+
 *, *:before, *:after {
   box-sizing: border-box; 
 }
@@ -89,6 +90,7 @@ p
   animation-delay: 1s;
   
 }
+
 /*=======================
           Modal
   ======================*/
