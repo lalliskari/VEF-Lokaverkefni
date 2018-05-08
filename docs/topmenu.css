@@ -1,0 +1,32 @@
+/* ========================================
+  Efnisyfirlit
+  ======================================== */
+
+  .topmenu {
+    padding: 5px;
+    margin: 0 ;
+    list-style: none; 
+    justify-content: center;
+    display: flex;
+    flex-flow:   row;
+    padding-top: 10em;
+    
+    
+  }
+  .topmenu li {
+    border: 0;
+    padding: 0;
+  }
+  
+  .topmenu a {
+       
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: .3em 2em; 
+    font-size: 20px;
+  }
+  .topmenu a:hover {
+      color: black;
+      
+  }

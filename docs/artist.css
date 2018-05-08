@@ -1,0 +1,26 @@
+.artist {
+    max-width: 50em;
+    height: auto;
+    background:red;
+    color: #0c0c0c;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border-radius: 10px;
+    margin-top: 7em;
+    
+}
+
+@media only screen and (min-width: 0em) and (max-width: 37.5em) {
+    .dagskra {
+      max-width: 20em;
+    }
+  }
+
+  @media only screen and (min-width: 0em) and (max-width: 44em) {
+    iframe {
+      width: 15em;
+      height:10em;
+    }
+  }
+ 
