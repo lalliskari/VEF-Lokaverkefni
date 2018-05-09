@@ -1,9 +1,9 @@
-@import "fellilisti.css";
-@import "topmenu.css";
-@import "dagskra.css";
-@import "artist.css";
-@import "animate.css";
-@import "topofpage.css";
+@import "../css/fellilisti.css";
+@import "../css/topmenu.css";
+@import "../css/dagskra.css";
+@import "../css/artist.css";
+@import "../css/animate.css";
+@import "../css/topofpage.css";
 
 
 
@@ -13,7 +13,7 @@
 
 body
 {
-	background: url("Myndir/bakgrunnur3.jpg") no-repeat center center fixed; 
+	background: url("../Myndir/bakgrunnur3.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
