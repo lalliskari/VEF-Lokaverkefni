@@ -16,8 +16,76 @@
     font-weight: 900;
     
 }
-.dagskra h2 {
-    line-height: 1.5;
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    border:solid;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+ td {
+    text-align: left;
+    padding: 8px;
+    color:rgb(46, 11, 11);
+}
+th {
+    text-align: left;
+    padding: 8px;
+    color: black;
+}
+
+tr:nth-child(even) {background-color: #f53b3b;}
+
+@media 
+only screen and (max-width: 48em)
+ {
+
+	
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Fela headerinn á döflunni */
+	thead, th { 
+		position: absolute;
+		top: -9999px;
+        left: -9999px;
+        
+        
+	}
+	
+	tr { border: 1px solid rgb(10, 10, 10); }
+	
+	td { 
+		
+		border: none;
+		border-bottom: 1px solid rgb(65, 57, 57); 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		
+		position: absolute;
+		
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+        white-space: nowrap;
+        color: black;
+        font-weight: bold;
+        
+	}
+	
+
+	td:nth-of-type(1):before { content: "Klukkan"; }
+	td:nth-of-type(2):before { content: "Hljómsveit"; }
+	
+	
 }
 
 @media only screen and (min-width: 0em) and (max-width: 37.5em) {
