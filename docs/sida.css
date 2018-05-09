@@ -134,6 +134,16 @@ p
     font-size: 40px;
   }
 }
+.banner img {
+ position: absolute;
+ left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+ 
+ width: 200px;
+ opacity: .2;
+  
+}
 
 
 /*=======================
