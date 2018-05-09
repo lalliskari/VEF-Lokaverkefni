@@ -1,0 +1,11 @@
+$myColor1: #f8cfca;                            // named color value
+$myColor2: #f71010; 
+$mycolor3: #ed8917;
+$myFontSize1: 18px;
+$myFontSize2: 40px;
+
+
+.about h1 {
+    color: $myColor1;
+    font-size: $myFontSize2;
+}

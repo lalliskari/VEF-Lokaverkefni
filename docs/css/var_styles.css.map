@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOA,SAAU;EACN,KAAK,EARE,OAAO;EASd,SAAS,EALC,IAAI",
+"sources": ["../scss/var_styles.scss"],
+"names": [],
+"file": "var_styles.css"
+}
