@@ -35,9 +35,10 @@ th {
     text-align: left;
     padding: 8px;
     color: black;
+    
 }
 
-tr:nth-child(even) {background-color: #f53b3b;}
+tr:nth-child(even) {background-color: yellow;}
 
 @media 
 only screen and (max-width: 48em)
