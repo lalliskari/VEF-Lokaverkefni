@@ -17,10 +17,25 @@
     }
   }
 
-  @media only screen and (min-width: 0em) and (max-width: 44em) {
+  @media only screen and (min-width: 37.5em) and (max-width: 44em) {
+    iframe {
+      width: 30em;
+      
+    }
+  }
+
+  @media only screen and (min-width: 30em) and (max-width: 37.5em) {
+    iframe {
+      width: 20em;
+      
+    }
+  }
+
+  @media only screen and (min-width: 0em) and (max-width: 30em) {
     iframe {
       width: 15em;
-      height:10em;
+      height: 10em;
+      
     }
   }
  
