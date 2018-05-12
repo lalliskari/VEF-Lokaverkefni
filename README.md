@@ -8,3 +8,5 @@ Við erum nýjir á markaðinum og erum að halda útgáfu tónleika til að byr
 Við höldum tónleikana til að koma okkur á kortið.
 
 Markhópurinn eru allir þeir sem hafa gaman af rokktónlist
+
+Hér er vefsíðan https://lalliskari.github.io/VEF2-Lokaverkefni/
